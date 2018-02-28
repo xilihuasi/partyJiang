@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view>
+  <canvas
+    canvas-id="myCanvas"
+    style="border: 1px solid;"
+    bindtouchstart="onStart"
+    bindtouchmove="onMove"
+    bindtouchend="onEnd"
+  />
+  <view hidden="{{hidden}}">坐标为：({{x}}, {{y}})</view>
+</view>
